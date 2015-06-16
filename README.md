@@ -13,6 +13,7 @@ In the project folder. type the following to get started:
 ```
 npm start
 ```
+Go to http://localhost:3000 to see the results.
 
 # Installation
 ### Windows
