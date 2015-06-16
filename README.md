@@ -8,7 +8,7 @@ From GitBash, enter the project folder and type the following to get started:
 npm start
 ```
 
-### express_website
+### express-website
 In the project folder. type the following to get started:
 ```
 npm start
@@ -16,8 +16,8 @@ npm start
 
 # Installation
 ### Windows
-Install Git from: https://git-scm.com/
-Install NodeJS from: https://nodejs.org/
+* Install Git from: https://git-scm.com/
+* Install NodeJS from: https://nodejs.org/
 
 ### Linux
 Ensure your distribution is up to date, and install nodejs and also the nodejs package manager.
@@ -37,6 +37,8 @@ Install express and express-generator through:
 npm install -g express
 npm install -g express-generator
 ```
+(Note: if you're installing on Linux, add `sudo` before the commands).
+
 Create the basic express website layout through:
 ```
 express name-of-project
