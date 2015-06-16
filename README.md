@@ -37,7 +37,12 @@ Install express and express-generator through:
 npm install -g express
 npm install -g express-generator
 ```
-(Note: if you're installing on Linux, add `sudo` before the commands).
+Note for Linux:
+* Add `sudo` before the above commands
+* You also need to symlink node and nodejs to get around an [issue](http://stackoverflow.com/questions/14914715/express-js-no-such-file-or-directory "Link to issue") with the package naming scheme, with the following command:
+```
+sudo ln -s /usr/bin/nodejs /usr/local/bin/node
+```
 
 Create the basic express website layout through:
 ```
