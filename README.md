@@ -12,6 +12,7 @@ npm start
 ### express-website
 Website built using Express and Bootstrap. In the project folder. type the following to get started:
 ```
+npm install
 npm start
 ```
 Go to http://localhost:3000 to see the results.
@@ -19,6 +20,7 @@ Go to http://localhost:3000 to see the results.
 ### node-auth
 Website built using Express and Bootstrap, using MongoDB as database for user registration system. As before, type the following to get started:
 ```
+npm install
 npm start
 ```
 
